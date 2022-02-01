@@ -1,0 +1,89 @@
+a:hover {
+    color: #e20202;
+
+}
+
+#header {
+background-image: url(./img/hornopizza.jpg);
+height: 400px;
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.header_titulo {
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding-top: 60px;
+    opacity: 0.8;
+}
+
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.header_menu {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_menu ul li {
+    border: 1px solid none;
+    padding: 5px;
+    margin: 0 10px;
+    list-style: none;
+    display: inline; 
+    text-decoration: none;   
+}
+
+
+p {
+    color: white;
+}
+
+h2 {
+    padding: 15px 15px 15px 15px;
+    font-family: 'Cormorant Infant', serif;
+    letter-spacing: 5px;
+    text-align: center;
+    border: inset;
+}
+
+@keyframes efecto {
+    0% {
+        color: white;
+        font-size: auto;
+    }
+    100% {
+        color: black;
+        font-size: 18px;
+    }
+}
+
+.tituloh2 {
+    animation-name: efecto;
+    animation-iteration-count: initial;
+    animation-delay: 0.5s;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    background-color: black;
+    color: white;
+    margin-bottom: -10px;
+    background-image: linear-gradient(to left, red,rgb(187, 187, 20));
+}

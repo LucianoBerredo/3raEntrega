@@ -1,0 +1,255 @@
+a:hover {
+  color: #e20202;
+}
+
+#header {
+  background-image: url(./img/hornopizza.jpg);
+  height: 400px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_titulo {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.514);
+  padding-top: 60px;
+  opacity: 0.8;
+}
+
+.header_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.header_menu {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header_menu ul li {
+  border: 1px solid none;
+  padding: 5px;
+  margin: 0 10px;
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  padding: 15px 15px 15px 15px;
+  font-family: 'Cormorant Infant', serif;
+  letter-spacing: 5px;
+  text-align: center;
+  border: inset;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    color: white;
+    font-size: auto;
+  }
+  100% {
+    color: black;
+    font-size: 18px;
+  }
+}
+
+@keyframes efecto {
+  0% {
+    color: white;
+    font-size: auto;
+  }
+  100% {
+    color: black;
+    font-size: 18px;
+  }
+}
+
+.tituloh2 {
+  -webkit-animation-name: efecto;
+          animation-name: efecto;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  background-color: black;
+  color: white;
+  margin-bottom: -10px;
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
+  background-image: linear-gradient(to left, red, #bbbb14);
+}
+
+footer {
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
+  background-image: linear-gradient(to left, red, #bbbb14);
+}
+
+.footerh3 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+footer .footerMapa {
+  border: black 4px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footerMapa .facebook {
+  width: 50px;
+  height: auto;
+}
+
+.facebookCaja {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border: 55px;
+  border-radius: 100%;
+}
+
+.mapa {
+  width: 900px;
+  height: 250px;
+}
+
+.instagram {
+  width: 50px;
+  height: auto;
+}
+
+.instagramCaja {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border: 55px;
+  border-radius: 100%;
+}
+
+.footerRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: black;
+  padding: 15px;
+}
+
+.footerRedes p {
+  color: black;
+}
+
+.iconMap {
+  width: 50px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.iconEmail {
+  width: 50px;
+  height: auto;
+}
+
+.iconTel {
+  width: 50px;
+  height: auto;
+}
+
+h3 {
+  padding: 15px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Infant', serif;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+legend {
+  color: black;
+  font-family: 'Cormorant Infant', serif;
+  text-align: center;
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
+  background-image: linear-gradient(to left, red, #bbbb14);
+}
+
+.formulario {
+  font-size: 23px;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  width: 100%;
+}
+
+.btn_form {
+  font-size: 20px;
+  border: 3px solid gray;
+  padding: 5px 5px 5px 5px;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=main.css.map */
