@@ -1,3 +1,12 @@
+@charset "UTF-8";
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+*/
 a:hover {
   color: #e20202;
 }
@@ -106,9 +115,51 @@ h2 {
   background-image: linear-gradient(to left, red, #bbbb14);
 }
 
+#video_home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  font-size: 60px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#video_home .btnPedir {
+  font-size: 50px;
+  color: white;
+  background-color: none;
+  border: 5px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  nav-left: 100px;
+  width: 300px;
+  height: auto;
+  -webkit-transition: width 3s;
+  transition: width 3s;
+  text-align: center;
+}
+
+#video_home .btnPedir:hover {
+  width: 400px;
+  height: auto;
+  background-color: #d84d16;
+  text-align: center;
+}
+
 footer {
   background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
   background-image: linear-gradient(to left, red, #bbbb14);
+  background-color: black;
 }
 
 .footerh3 {
@@ -139,6 +190,7 @@ footer .footerMapa {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: black;
 }
 
 footer .footerMapa .facebook {
@@ -251,5 +303,79 @@ label {
   display: -ms-flexbox;
   display: flex;
   padding-right: 20px;
+}
+
+.nos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 150px 0px 150px;
+  background-color: black;
+  text-align: center;
+}
+
+.nos_img {
+  width: auto;
+  height: 450px;
+}
+
+.nos_txt {
+  background-color: black;
+  opacity: 0.8;
+  padding: 10px 150px 10px 150px;
+}
+
+/* HASTA acá seccion NOSOTROS */
+/* Desde acá seccion MENÚ */
+section {
+  background-color: #181717;
+  text-align: center;
+}
+
+.btn_pizza {
+  font-size: 10px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.pizzastxt {
+  position: absolute;
+  font-size: 25px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  left: 10px;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.btn_cantidad {
+  margin-bottom: 55px;
+}
+
+/* Desde acá seccion SUCURSALES */
+.Mapas_sucursales {
+  background-color: black;
+  width: auto;
+  height: 100%;
+  padding-right: px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h4 {
+  color: white;
+  padding-left: 25px;
+}
+
+.Mapas_Sucursales_p {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,91 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+*/
+
 @import "header";
 @import "./footer";
 
+.nos {
+    display: flex;
+    padding: 40px 150px 0px 150px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .nos_img {;
+    width: auto;
+    height: 450px;
+  }
+
+  .nos_txt {
+    background-color: black;
+    opacity: 0.8;
+    padding: 10px 150px 10px 150px;
+  }
+
+  .nos_pizza {
+
+  }
+
+/* HASTA acá seccion NOSOTROS */
+/* Desde acá seccion MENÚ */
+  
+section {
+  background-color: rgb(24, 23, 23); 
+  text-align: center;
+}
+
+.btn_pizza {
+  font-size: 10px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.pizzastxt {
+  position: absolute;
+  font-size: 25px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  left: 10px;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn_cantidad {
+  margin-bottom: 55px;
+}
+
+
+
+/* Desde acá seccion SUCURSALES */
+.Mapas_sucursales {
+  background-color: black;
+  width: auto;
+  height: 100%;
+  padding-right: px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 25%;
+  display: flex;
+}
+
+h4 {
+  color: white;
+  padding-left: 25px;
+}
+
+.Mapas_Sucursales_p {
+  color: white;
+}
+
+
+
+  
