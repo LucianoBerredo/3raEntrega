@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
 }
 */
 a:hover {
@@ -160,6 +160,8 @@ footer {
   background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
   background-image: linear-gradient(to left, red, #bbbb14);
   background-color: black;
+  width: 100%;
+  height: auto;
 }
 
 .footerh3 {
@@ -271,14 +273,6 @@ h3 {
   text-align: center;
 }
 
-legend {
-  color: black;
-  font-family: 'Cormorant Infant', serif;
-  text-align: center;
-  background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
-  background-image: linear-gradient(to left, red, #bbbb14);
-}
-
 .formulario {
   font-size: 23px;
   padding: 10px;
@@ -288,8 +282,11 @@ legend {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   color: black;
   width: 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
+  background-image: linear-gradient(to left, red, #bbbb14);
 }
 
 .btn_form {
@@ -298,31 +295,13 @@ legend {
   padding: 5px 5px 5px 5px;
 }
 
-label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 20px;
-}
-
-.nos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 40px 150px 0px 150px;
+h1 {
   background-color: black;
-  text-align: center;
 }
 
-.nos_img {
-  width: auto;
-  height: 450px;
-}
-
-.nos_txt {
-  background-color: black;
-  opacity: 0.8;
-  padding: 10px 150px 10px 150px;
+h4 {
+  color: white;
+  padding-left: 25px;
 }
 
 /* HASTA acá seccion NOSOTROS */
@@ -370,12 +349,23 @@ section {
   display: flex;
 }
 
-h4 {
-  color: white;
-  padding-left: 25px;
+.nos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 150px 0px 150px;
+  background-color: black;
+  text-align: center;
 }
 
-.Mapas_Sucursales_p {
-  color: white;
+.nos_img {
+  width: auto;
+  height: 450px;
+}
+
+.nos_txt {
+  background-color: black;
+  opacity: 0.8;
+  padding: 10px 150px 10px 150px;
 }
 /*# sourceMappingURL=main.css.map */

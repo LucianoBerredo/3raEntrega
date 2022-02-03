@@ -1,36 +1,25 @@
 /*
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
 }
 */
 
 @import "header";
 @import "./footer";
 
-.nos {
-    display: flex;
-    padding: 40px 150px 0px 150px;
-    background-color: black;
-    text-align: center;
-  }
-  
-  .nos_img {;
-    width: auto;
-    height: 450px;
-  }
+h1 {
+  background-color: black;
+}
 
-  .nos_txt {
-    background-color: black;
-    opacity: 0.8;
-    padding: 10px 150px 10px 150px;
-  }
+h4 {
+  color: white;
+  padding-left: 25px;
+}
 
-  .nos_pizza {
 
-  }
 
 /* HASTA acá seccion NOSOTROS */
 /* Desde acá seccion MENÚ */
@@ -77,15 +66,20 @@ section {
   display: flex;
 }
 
-h4 {
-  color: white;
-  padding-left: 25px;
+.nos {
+  display: flex;
+  padding: 40px 150px 0px 150px;
+  background-color: black;
+  text-align: center;
 }
 
-.Mapas_Sucursales_p {
-  color: white;
+.nos_img {
+  width: auto;
+  height: 450px;
 }
 
-
-
-  
+.nos_txt {
+  background-color: black;
+  opacity: 0.8;
+  padding: 10px 150px 10px 150px;
+}
